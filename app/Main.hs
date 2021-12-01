@@ -1,4 +1,6 @@
 module Main where
 
+import Day1.Task2
+
 main :: IO ()
-main = putStrLn "Hello, Haskell!"
+main = run
