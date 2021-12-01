@@ -5,6 +5,7 @@
 /direnv.test
 /dist
 *~
+*#*
 
 dist
 dist-*
