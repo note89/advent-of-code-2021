@@ -1,6 +1,6 @@
 module Day2.Data where
 
-data Direction = Forward Integer | Down Integer | Up Integer
+data Direction = Forward Integer | Down Integer | Up Integer deriving (Show)
 
 smallInput :: [Direction]
 smallInput = [Forward 5, Down 5, Forward 8, Up 3, Down 8, Forward 2]
